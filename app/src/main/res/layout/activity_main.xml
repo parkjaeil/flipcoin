@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:background="#FFFFFF"
+    tools:context="com.example.johnpark.flipcoin.MainActivity">
+
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/iv_coin"
+        android:layout_marginTop="200dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/front"
+        android:layout_gravity="center_horizontal" />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Flip"
+        android:layout_margin="20dp"
+        android:id="@+id/b_flip"
+        android:layout_gravity="center_horizontal" />
+
+
+
+</LinearLayout>
